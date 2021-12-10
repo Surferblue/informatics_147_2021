@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int nod(int x,int y){
+int nok(int x,int y){
     int a=0;
     for (int i=x+y;i>=2;i--){
         if (x%i==0&&y%i==0){
@@ -18,11 +18,11 @@ int main()
     SetConsoleOutputCP(1251);
 int x,y;
 cin>>x>>y;
-    if(nod(x,y)==0)cout<<"Ó ýòèõ ÷èñåë íåò ÍÎÄ"<<endl;
+    if(nok(x,y)==0)cout<<"Ã“ Ã½Ã²Ã¨Ãµ Ã·Ã¨Ã±Ã¥Ã« Ã­Ã¥Ã² ÃÃŽÃ„"<<endl;
         else if (x>=0&&y>=0){
-cout<<"Íàèìåíüøèé îáùèé äåëèòåëü ðàâåí "<<nod(x,y)<<endl;
+cout<<"ÃÃ Ã¨Ã¬Ã¥Ã­Ã¼Ã¸Ã¨Ã© Ã®Ã¡Ã¹Ã¨Ã© Ã¤Ã¥Ã«Ã¨Ã²Ã¥Ã«Ã¼ Ã°Ã Ã¢Ã¥Ã­ "<<nok(x,y)<<endl;
 }else{
-    cout<<"×èñëà x è y äîëæíû áûòü ïîëîæèòåëüíûìè";
+    cout<<"Ã—Ã¨Ã±Ã«Ã  x Ã¨ y Ã¤Ã®Ã«Ã¦Ã­Ã» Ã¡Ã»Ã²Ã¼ Ã¯Ã®Ã«Ã®Ã¦Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ã¬Ã¨";
 }
     return 0;
 }
