@@ -6,10 +6,10 @@ int main()
 {
     setlocale(LC_ALL, "");
     int n,m,a,b;
-    cout<<"Ââåäèòå êîë-âî ñòðîê è ñòîëáöîâ ìàññèâà"<<endl;
+    cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«-Ã¢Ã® Ã±Ã²Ã°Ã®Ãª Ã¨ Ã±Ã²Ã®Ã«Ã¡Ã¶Ã®Ã¢ Ã¬Ã Ã±Ã±Ã¨Ã¢Ã "<<endl;
 cin>>n>>m;
 int A[n][m]={0};
-int B[m]={0};
+int B[n]={0};
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
            A[i][j]=rand()%201-100;
@@ -27,7 +27,7 @@ for (int i=0; i<n; i++)
         max=-1000;
       }
       cout<<endl;
-      for(int i=0;i<m;i++){
+      for(int i=0;i<n;i++){
         cout<<B[i]<<endl;
       }
 for (int j=0; j<m; j++)
