@@ -129,7 +129,7 @@ int main()
         fc = log10(c*2)-sin((Pi * c) / 3);
         p = fa * fc;
         cout << "│" << setw(13) << left << a << "│" << setw(13) << b << "│" << setw(13) << c << "│"
-        << setw(13) << b-a << "│" << setw(13) << fa << "│" << setw(13) << fc << "│" << setw(13) << product << "│" << endl;
+        << setw(13) << b-a << "│" << setw(13) << fa << "│" << setw(13) << fc << "│" << setw(13) << p << "│" << endl;
         if (p < 0)
         {
             a = blizkor1;
